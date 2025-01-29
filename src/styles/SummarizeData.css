@@ -1,0 +1,99 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e9ecef; /* Light gray background for the whole page */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Default text color */
+}
+
+/* Container to center everything */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 40px auto; /* Add margin at the top for better spacing */
+  background-color: #ffffff; /* White background for the container */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow around container */
+}
+
+/* Heading */
+h4 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* TextField styling */
+.text-field {
+  margin-bottom: 20px;
+  max-width: 600px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #fafafa; /* Light gray background for input fields */
+}
+
+/* ResultBox styling */
+.result-box {
+  margin-top: 20px;
+  padding: 15px;
+  max-width: 600px;
+  width: 100%;
+  background-color: #ffffff; /* White background for the result box */
+  color: #333;
+  border-radius: 8px; /* Rounded corners */
+  border: 1px solid #ccc; /* Light border */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for result box */
+}
+
+/* Emotion & Formality Selector styling */
+.MuiFormControl-root {
+  margin-bottom: 20px;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Button styling */
+.MuiButton-root {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.MuiButton-root:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Loading spinner styling */
+.MuiCircularProgress-root {
+  margin-left: 10px;
+}
+
+/* Add padding and border to the container elements */
+.MuiTextField-root {
+  border-radius: 8px;
+}
+
+.MuiSelect-root {
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.MuiTypography-root {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
